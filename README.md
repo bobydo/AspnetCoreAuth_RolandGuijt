@@ -40,3 +40,6 @@
 ![MultipleLogin](https://user-images.githubusercontent.com/64368109/130359997-d8919d47-33d4-4bd6-81a6-7d6e86dbc9f7.png)
 
 
+Chapter 3 Implementing authentication with aspnet core identity
+-  Create project with Identity authentication
+-  

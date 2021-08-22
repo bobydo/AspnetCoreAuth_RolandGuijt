@@ -33,3 +33,9 @@
 
 ![OAuthOpenID](https://user-images.githubusercontent.com/64368109/130359405-9862b075-d054-47e2-a18a-2a68b83dd342.png)
 -  Manager google config using right click project -> Manger User Secrects
+![UseSecretId](https://user-images.githubusercontent.com/64368109/130359988-a7c22522-5b0f-4e7c-8d99-f85d6a0e903c.png)
+
+-  Multiple authentication
+![MultipleLogin](https://user-images.githubusercontent.com/64368109/130359997-d8919d47-33d4-4bd6-81a6-7d6e86dbc9f7.png)
+
+

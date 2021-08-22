@@ -132,3 +132,5 @@ public class IdentityHostingStartup : IHostingStartup
         }
         
 ```
+-  Send email
+![image](https://user-images.githubusercontent.com/64368109/130365553-b2f1bc9d-06bb-4c94-8437-4ca34f5cb835.png)

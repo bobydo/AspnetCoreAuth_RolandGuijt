@@ -44,4 +44,10 @@ Chapter 3 Implementing authentication with aspnet core identity
 -  Create project with Identity authentication
 -  Login features
 ![LoginFeatures](https://user-images.githubusercontent.com/64368109/130360484-2ec9de2b-0ea4-47bf-89e9-de54eaa0b6f6.png)
-
+```
+    public class ApplicationUser : IdentityUser
+    {
+        public DateTime CareerStartedDate { get; set; }
+        public string FullName { get; set; }
+    }
+ ```

@@ -141,5 +141,9 @@ https://4sh.nl/qrcodejs
 ![image](https://user-images.githubusercontent.com/64368109/130365707-fbf659ec-ae54-4d5d-8022-80d88e0d5077.png)
 
 
--  Link google account to internal login
+-  Link google account to internal login <br />
 ![image](https://user-images.githubusercontent.com/64368109/130370306-ba2971aa-e1dc-4fdf-8d00-6ca6a8319f9a.png)
+
+-  Identity server
+![image](https://user-images.githubusercontent.com/64368109/130371705-9dabe201-ec21-4bd2-a377-13b3cf2d9557.png)
+

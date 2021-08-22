@@ -11,3 +11,5 @@
 
 ![ClaimPrincipleIdentityClaim](https://user-images.githubusercontent.com/64368109/130358579-48c7c631-8cca-4537-a831-ff805e107710.png)
 
+![Cookies](https://user-images.githubusercontent.com/64368109/130358725-4483ff83-2e95-43c7-ba32-52dcdeb16ebf.png)
+

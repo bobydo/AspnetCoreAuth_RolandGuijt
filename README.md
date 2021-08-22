@@ -147,3 +147,5 @@ https://4sh.nl/qrcodejs
 -  Identity server
 ![image](https://user-images.githubusercontent.com/64368109/130371705-9dabe201-ec21-4bd2-a377-13b3cf2d9557.png)
 
+-  Oauth2 and OpenIdConnect <br />
+![image](https://user-images.githubusercontent.com/64368109/130372085-66d28ad2-8abc-467f-8787-00f0255b4fad.png)

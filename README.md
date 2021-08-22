@@ -90,3 +90,45 @@ Chapter 3 Implementing authentication with aspnet core identity
 ```
 ![CustomizedClaims](https://user-images.githubusercontent.com/64368109/130365063-ee13fb87-0b3e-4f3c-95ef-3e5a5757bd4a.png)
 
+-  Customize role or inherit RoleIdentity
+![RoleIsClaims](https://user-images.githubusercontent.com/64368109/130365350-37b44850-43d1-4423-ae95-79894a7fb7da.png)
+```
+public class IdentityHostingStartup : IHostingStartup
+
+        public void Configure(IWebHostBuilder builder)
+        {
+            builder.ConfigureServices((context, services) =>
+            {
+                services.AddDbContext<ConfArchWebContext>(options =>
+                    options.UseSqlServer(
+                        context.Configuration
+                            .GetConnectionString("ConfArchWebContextConnection")));
+
+                services.AddIdentity<ApplicationUser, IdentityRole>(options =>
+                    options.SignIn.RequireConfirmedAccount = true)
+                    .AddEntityFrameworkStores<ConfArchWebContext>()
+                    .AddDefaultUI()
+                    .AddDefaultTokenProviders();
+
+                services.AddScoped<IUserClaimsPrincipalFactory<ApplicationUser>,
+                    ApplicationUserClaimsPrincipalFactory>();
+                services.AddTransient<IEmailSender, EmailSender>();
+
+                services.AddAuthentication()
+                    .AddGoogle(o =>
+                    {
+                        o.ClientId = "686977813024-1pabqkfoar3btu6tsh7puhu3pogcivi0.apps.googleusercontent.com";
+                        o.ClientSecret = context.Configuration["Google:ClientSecret"];
+                    });
+            });
+        }
+        
+        public ApplicationUserClaimsPrincipalFactory(
+            UserManager<ApplicationUser> userManager,
+            RoleManager<IdentityRole> roleManager,
+            IOptions<IdentityOptions> options
+            ): base (userManager, roleManager, options)
+        {
+        }
+        
+```

@@ -54,3 +54,7 @@ Chapter 3 Implementing authentication with aspnet core identity
 -  other customized indentity stores
 <br />https://docs.microsoft.com/en-us/aspnet/core/security/authentication/identity-custom-storage-providers?view=aspnetcore-5.0
 <br />https://4sh.nl/IdentityConfigurationc
+
+-  Retrofit Identity pages (since default pages from Areas->Indentity + Microsoft.AspNetCore.Identity.UI)
+![CustomizeIdentityPages](https://user-images.githubusercontent.com/64368109/130361224-66c59d09-3132-4e3d-81ab-4d72addd975d.png)
+

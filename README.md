@@ -1,4 +1,5 @@
 # AspnetCoreAuth_RolandGuijt
+
 <br />Chapter 2 Understanding Authenticationa and Authorization
 <ul> the sequence is important
 <li>app.UseRouting();</li>
@@ -31,4 +32,4 @@
   ```
 
 ![OAuthOpenID](https://user-images.githubusercontent.com/64368109/130359405-9862b075-d054-47e2-a18a-2a68b83dd342.png)
-
+-  Manager google config using right click project -> Manger User Secrects

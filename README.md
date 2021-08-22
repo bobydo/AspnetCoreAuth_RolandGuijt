@@ -61,4 +61,28 @@ Chapter 3 Implementing authentication with aspnet core identity
 
 ![CustomizeIdentityPage2](https://user-images.githubusercontent.com/64368109/130361386-4087e10c-c7f6-4f7b-9bc0-2c2e56df3f0e.png)
 
+-  Customized claims
+```
+        public ApplicationUserClaimsPrincipalFactory(
+            UserManager<ApplicationUser> userManager,
+            RoleManager<IdentityRole> roleManager,
+            IOptions<IdentityOptions> options
+            ): base (userManager, roleManager, options)
+        {
+        }
+
+        protected override async Task<ClaimsIdentity> 
+            GenerateClaimsAsync(ApplicationUser user)
+        {
+            var identity = await base.GenerateClaimsAsync(user);
+
+            identity.AddClaim(new Claim("CareerStarted",
+                user.CareerStartedDate.ToShortDateString()));
+            identity.AddClaim(new Claim("FullName",
+                user.FullName));
+
+            return identity;
+        }
+```
+![CustomizedClaims](https://user-images.githubusercontent.com/64368109/130365063-ee13fb87-0b3e-4f3c-95ef-3e5a5757bd4a.png)
 

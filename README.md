@@ -51,3 +51,5 @@ Chapter 3 Implementing authentication with aspnet core identity
         public string FullName { get; set; }
     }
  ```
+-  other customized indentity stores
+https://docs.microsoft.com/en-us/aspnet/core/security/authentication/identity-custom-storage-providers?view=aspnetcore-5.0

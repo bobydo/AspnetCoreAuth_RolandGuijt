@@ -134,3 +134,7 @@ public class IdentityHostingStartup : IHostingStartup
 ```
 -  Send email
 ![image](https://user-images.githubusercontent.com/64368109/130365553-b2f1bc9d-06bb-4c94-8437-4ca34f5cb835.png)
+
+-  two factor authentication to use QR code scan
+![image](https://user-images.githubusercontent.com/64368109/130365635-81f125d9-0493-4727-a261-33f6a822b636.png)
+https://4sh.nl/qrcodejs

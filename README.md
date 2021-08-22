@@ -57,4 +57,6 @@ Chapter 3 Implementing authentication with aspnet core identity
 
 -  Retrofit Identity pages (since default pages from Areas->Indentity + Microsoft.AspNetCore.Identity.UI)
 ![CustomizeIdentityPages](https://user-images.githubusercontent.com/64368109/130361224-66c59d09-3132-4e3d-81ab-4d72addd975d.png)
+![CustomizeIdentityPage1](https://user-images.githubusercontent.com/64368109/130361277-481dd85b-e11e-4e0f-8f49-9aba9f109114.png)
+
 

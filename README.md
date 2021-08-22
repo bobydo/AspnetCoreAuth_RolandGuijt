@@ -29,3 +29,6 @@
             }
   </div>
   ```
+
+![OAuthOpenID](https://user-images.githubusercontent.com/64368109/130359405-9862b075-d054-47e2-a18a-2a68b83dd342.png)
+

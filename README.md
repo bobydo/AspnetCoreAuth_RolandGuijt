@@ -14,9 +14,10 @@
 
 ![Cookies](https://user-images.githubusercontent.com/64368109/130358725-4483ff83-2e95-43c7-ba32-52dcdeb16ebf.png)
 
--  check user cookie for login <br />
+-  check user cookie for login 
+<br />
 Or inherited from public class ClaimsTransformer : IClaimsTransformation
-            
+<br />      
 ```
 <div class="col-md-4">
             @if (User.Identity.IsAuthenticated)

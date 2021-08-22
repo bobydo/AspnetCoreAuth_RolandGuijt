@@ -8,4 +8,5 @@
 <ul>Secure the password
 <li>public User GetByUsernameAndPassword(string username, string password)</li>
 </ul>
+![ClaimPrincipleIdentityClaim](https://user-images.githubusercontent.com/64368109/130358553-c1c4192e-50d4-4ccf-bd50-a9ea225ec4ef.png)
 

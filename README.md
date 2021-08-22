@@ -52,4 +52,5 @@ Chapter 3 Implementing authentication with aspnet core identity
     }
  ```
 -  other customized indentity stores
-https://docs.microsoft.com/en-us/aspnet/core/security/authentication/identity-custom-storage-providers?view=aspnetcore-5.0
+<br />https://docs.microsoft.com/en-us/aspnet/core/security/authentication/identity-custom-storage-providers?view=aspnetcore-5.0
+<br />https://4sh.nl/IdentityConfigurationc

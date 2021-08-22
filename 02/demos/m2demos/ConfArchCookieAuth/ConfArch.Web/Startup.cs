@@ -37,7 +37,12 @@ namespace ConfArch.Web
                 o.DefaultScheme = CookieAuthenticationDefaults.AuthenticationScheme;
                 //o.DefaultChallengeScheme = GoogleDefaults.AuthenticationScheme;
             })
-                .AddCookie()
+                .AddCookie(
+                    //replace default login path
+                    //o=>o.LoginPath="acccount/signin"
+                    //don't not forget to set  [AllowAnonymous]
+                    //public IActionResult Login(string returnUrl = "/")
+                )
                 .AddCookie(ExternalAuthenticationDefaults.AuthenticationScheme)
                 .AddGoogle(o =>
                 {
@@ -61,7 +66,6 @@ namespace ConfArch.Web
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-
             app.UseRouting();
 
             app.UseAuthentication();

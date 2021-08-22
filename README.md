@@ -138,3 +138,5 @@ public class IdentityHostingStartup : IHostingStartup
 -  two factor authentication to use QR code scan
 ![image](https://user-images.githubusercontent.com/64368109/130365635-81f125d9-0493-4727-a261-33f6a822b636.png)
 https://4sh.nl/qrcodejs
+![image](https://user-images.githubusercontent.com/64368109/130365707-fbf659ec-ae54-4d5d-8022-80d88e0d5077.png)
+

@@ -13,8 +13,9 @@
 
 ![Cookies](https://user-images.githubusercontent.com/64368109/130358725-4483ff83-2e95-43c7-ba32-52dcdeb16ebf.png)
 
-<ul> check user cookie for login
-        <div class="col-md-4">
+-  check user cookie for login
+```
+<div class="col-md-4">
             @if (User.Identity.IsAuthenticated)
             {
                 <h3>Hi @User.Identity.Name!</h3>
@@ -26,5 +27,5 @@
                 <a asp-controller="Account" asp-action="Login" class="btn btn-primary">Login</a>
        
             }
-        </div>
-</ul>
+  </div>
+  ```
